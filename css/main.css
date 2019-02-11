@@ -6,3 +6,14 @@
 @import"projects.css";
 @import"contact.css";
 @import"footer.css";
+
+body{
+    background-image: linear-gradient(white, rgb(37, 37, 37));
+    background-repeat: no-repeat;
+    font: var(--font-one);
+    /*background: var(--purple);*/
+}
+#derpy{
+    height: 1000px;
+    bottom: 0;
+}
