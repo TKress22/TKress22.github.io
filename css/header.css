@@ -1,0 +1,9 @@
+#nameTitle{
+
+}
+#headerDiv{
+    background-image: linear-gradient(white, var(--custGray));
+    background-repeat: no-repeat;
+    color: black;
+    height: 100vh;
+}

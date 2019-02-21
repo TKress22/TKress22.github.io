@@ -8,12 +8,7 @@
 @import"footer.css";
 
 body{
-    background-image: linear-gradient(white, rgb(37, 37, 37));
-    background-repeat: no-repeat;
+    color: white;
+    background-color: var(--custGray);
     font: var(--font-one);
-    /*background: var(--purple);*/
-}
-#derpy{
-    height: 1000px;
-    bottom: 0;
 }

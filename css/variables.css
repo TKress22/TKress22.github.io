@@ -1,4 +1,5 @@
 :root{
     --purple: #5C1575; /*variable*/
+    --custGray: rgb(37, 37, 37);
     --font-one: 'Oswald', sans-serif;
 }
