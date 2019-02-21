@@ -12,3 +12,6 @@ body{
     background-color: var(--custGray);
     font: var(--font-one);
 }
+div{
+    border: 3px solid gray;
+}
