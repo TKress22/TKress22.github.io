@@ -23,10 +23,18 @@
     </header>   
     
     <nav class="navbar navbar-expand-lg" id="navBar">
-        About Me | Stuff I've Done | Contact Me
+        <div class="col-sm">
+            <h3><a href="#aboutHolder">About Me</a></h3>
+        </div>
+        <div class="col-sm">
+            <h3><a href="#projectsHolder">Stuff I've Done</a></h3>
+        </div>
+        <div class="col-sm">
+            <h3><a href="#projectsHolder">Contact Me</a></h3>
+        </div>
     </nav>
     <!-- About -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="aboutHolder">
         <h2>About Me</h2>
         <p>
             I've always had an interest in programming. It started back in sixth grade, 
@@ -55,35 +63,49 @@
     </div>
     
     <!-- Projects -->
-    <div>
-        <div id="clickConDiv">
-            <h3>ClickCon</h3>
-            <a href="https://crinoid-cart.000webhostapp.com/">ClickCon!</a><br>
-            ClickCon, my longest standing, still active personal project, spanning over a year and still going strong.
-        </div>
-        <div>
-            <h3>Pterrordactyl</h3>
-            <a href="https://codepen.io/TKress22/pen/qgXbpo">Pterrordactyl</a><br>
-            Pterrordactyl, a silly little CodePen CSS project.
-        </div>
-        <div>
-            <h3>Gold Badge Challenges</h3>
-            <a href="https://github.com/TKress22/GoldBadgeChallenges">Gold Badge Challenges</a><br>
-            The Gold Badge Challenges I've done during my time at Eleven Fifty Academy.
-        </div>
-        <div>
-            <h3>Static Storefront</h3>
-            <a href="">Static Storefront</a><br>
-            A simple, static Storefront webpage I did during the Gold Badge phase at Eleven Fifty.
-        </div>
+    <div class="container-fluid" id="projectsHolder">
+        <h2>Stuff I've Done</h2>
+        <p>An ever evolving work in progress, here's some of the stuff I'm proud of. (Especially ClickCon)</p>
+        <div class="row">
+                <div class="col" id="clickConDiv">
+                        <h3>ClickCon</h3>
+                        <a href="https://crinoid-cart.000webhostapp.com/">ClickCon!</a><br>
+                        ClickCon, my longest standing, still active personal project, spanning over a year and still going strong.
+                    </div>
+                    <div class="col" >
+                        <h3>Pterrordactyl</h3>
+                        <a href="https://codepen.io/TKress22/pen/qgXbpo">Pterrordactyl</a><br>
+                        Pterrordactyl, a silly little CodePen CSS project.
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col" >
+                        <h3>Gold Badge Challenges</h3>
+                        <a href="https://github.com/TKress22/GoldBadgeChallenges">Gold Badge Challenges</a><br>
+                        The Gold Badge Challenges I've done during my time at Eleven Fifty Academy.
+                    </div>
+                    <div class="col" >
+                        <h3>Static Storefront</h3>
+                        <a href="https://tkress22.github.io/StoreFrontProject/">Static Storefront</a><br>
+                        A simple, static Storefront webpage I did during the Gold Badge phase at Eleven Fifty.
+                    </div>
+        </div>     
     </div>
     <!-- Contacts --> 
-    <div>
+    <div id="contactHolder">
+        <h2>Contact Me</h2>
+        <div id="linksHolder">
+            <div id="gitHubHolder">
+
+            </div>
+            <div id="linkedIn">
+
+            </div>
+        </div>
         <form action="https://formspree.io/kress.trever@gmail.com" method="POST">
                 <div class="control-group">
                     <div class="form-group">
                         <label>Name</label>
-                        <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                        <input type="text" class="form-control darkInp" placeholder="Your Name" id="name" required
                             data-validation-required-message="Please enter your name" name="name">
                         <p class="help-block text-danger"></p>
                     </div>
@@ -91,14 +113,14 @@
                 <div class="control-group">
                     <div class="form-group">
                         <label>Email Address</label>
-                        <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                        <input type="email" class="form-control darkInp" placeholder="Your Email" id="email" required
                             data-validation-required-message="Please enter your email" name="_replyto">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="form-group">
-                        <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                        <textarea class="form-control darkInp" rows="7" placeholder="Your Message" id="message" required
                             data-validation-required-message="Please leave a message" name="message"></textarea>
                         <p class="help-block text-danger"></p>
                     </div>
@@ -113,6 +135,9 @@
         </form>
     </div>
     <!-- Footer -->
+    <div id="footerHolder">
+        A website made by Trever Kress
+    </div>
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
