@@ -1,5 +1,6 @@
 .projectDiv{
     border: 3px solid gray;
+    border-radius: 20px;
 }
 .imgBubble{
     width: 300px;
