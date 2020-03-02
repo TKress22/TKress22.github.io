@@ -1,4 +1,11 @@
+#contactHolder{
+    margin-top: 20px;
+}
 .darkInp{
     background-color: rgb(68, 67, 67);
     color: white;
+}
+.linkMini{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
